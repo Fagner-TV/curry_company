@@ -26,7 +26,7 @@ st.markdown(
              
              -Visão Geográfica: Insights de geolocalização.
             
-            -Visão Entregado:
+            -Visão Entregador:
              - Acompanhamento de indicadores semanais de crescimento.
             - Visão Restaurante:
              - Indicadores semanais de crescimento dos restaurantes. 
@@ -35,4 +35,5 @@ st.markdown(
              - @fagner
 
 """)
+
 
