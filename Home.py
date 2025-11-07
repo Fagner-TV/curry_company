@@ -8,7 +8,7 @@ image = Image.open(image_path)
 st.sidebar.image(image,width=120)
 
 st.header('Cury Company')
-st.sidebar.markdown('##Fastesty Delivey in Town')
+st.sidebar.markdown('Fastesty Delivey in Town')
 st.sidebar.markdown('''___''')
 
 st.write('Curry Company Growth Dashboard')
@@ -28,4 +28,5 @@ st.markdown(
             ### Ask For Help 
             - Time de Data Science no Discord
              - @fagner
+
 """)
