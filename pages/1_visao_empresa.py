@@ -146,7 +146,7 @@ st.sidebar.markdown('# Cury Company')
 st.sidebar.markdown('## Fastest Delivery in Town')
 st.sidebar.markdown('''---''')
 st.sidebar.markdown('## Selecione uma data limite')
-date_slider = st.sidebar.slider('Até qual valor?',value= datetime(2022,4,13),min_value= datetime(2022,2,11), max_value=datetime(2022,4,6), format='DD-MM-YYYY')
+date_slider = st.sidebar.slider('Até qual data ?',value= datetime(2022,4,13),min_value= datetime(2022,2,11), max_value=datetime(2022,4,6), format='DD-MM-YYYY')
 
 st.sidebar.markdown('''---''')
 
@@ -206,4 +206,5 @@ with tab2:
 # ==============================
 with tab3:
     st.header('Country Maps')
+
     country_maps(df1)
