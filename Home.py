@@ -1,5 +1,24 @@
 import streamlit as st
 from PIL import Image
+hide_elements = """
+<style>
+    /* Remove menu superior, icones e animações */
+    header {visibility: hidden;}
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+
+    /* Remove barra com o correr/editar (lápis) */
+    div[data-testid="stToolbar"] {
+        display: none !important;
+    }
+
+    /* Remove ícone do gato / Streamlit menu */
+    div[data-testid="stDecoration"] {
+        display: none !important;
+    }
+</style>
+"""
+st.markdown(hide_elements, unsafe_allow_html=True)
 
 st.set_page_config(page_title='Home', page_icon= '🐼')
 
@@ -35,5 +54,6 @@ st.markdown(
              - @fagner
 
 """)
+
 
 
